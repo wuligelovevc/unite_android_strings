@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72dip"
+    android:gravity="center_vertical"
+    android:ignoreGravity="@+id/icon"
+    android:orientation="horizontal"
+    android:paddingLeft="5dip" >
+
+    <ImageView
+        android:id="@+id/folder_icon"
+        android:layout_width="84dip"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/row_account"
+        android:layout_width="45dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:minHeight="?android:attr/listPreferredItemHeight" >
+
+        <ImageView
+            android:id="@+id/btn_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingRight="5dip"
+            android:src="@drawable/account_spinner_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/row_info"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/row_account"
+        android:layout_toRightOf="@+id/folder_icon"
+        android:gravity="left" >
+
+        <TextView
+            android:id="@+id/folder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:ellipsize="end"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="10dip"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/video_folder_title_color" />
+
+        <TextView
+            android:id="@+id/folder_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/folder_title"
+            android:ellipsize="end"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/video_summary_title_color"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/btn_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:paddingRight="5dip" />
+
+</RelativeLayout>

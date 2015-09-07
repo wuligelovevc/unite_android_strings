@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item android:id="@+id/context_menu_view" android:title="@string/view" />
+    <item android:id="@+id/context_menu_sort" android:title="@string/sort" />
+  <item android:id="@+id/context_menu_select" android:title="@string/select_item"/>
+  <item android:id="@+id/context_menu_goto" android:title="@string/goto_stream"/>
+  <item android:id="@+id/context_menu_setting" android:title="@string/popup_settings"/>
+  <item android:id="@+id/context_menu_alive" android:title="@string/alive"/>
+  <item android:id="@+id/context_menu_online" android:title="@string/online_name"/>
+</menu>

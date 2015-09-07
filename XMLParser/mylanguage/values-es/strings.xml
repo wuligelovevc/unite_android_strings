@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Reproductor de vídeo"</string>
+    <string name="popup_share">"Compartir"</string>
+    <string name="popup_delete">"Eliminar"</string>
+    <string name="popup_clip">"Recortar"</string>
+    <string name="popup_settings">"Ajustes"</string>
+    <string name="myvideo">"Mis vídeos"</string>
+    <string name="delete_item">"Eliminar"</string>
+    <string name="delete_yes">"Sí"</string>
+    <string name="delete_no">"No"</string>
+    <string name="share">"Compartir"</string>
+    <string name="rename">"Cambiar nombre"</string>
+    <string name="details">"Detalles"</string>
+    <string name="list">"Lista"</string>
+    <string name="thumbnail">"Miniatura"</string>
+    <string name="folder">"Carpeta"</string>
+    <string name="view">"Ver por"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="sort">"Orden"</string>
+    <string name="sort_time">"Hora"</string>
+    <string name="sort_name">"Nombre"</string>
+    <string name="sort_size">"Tamaño"</string>
+    <string name="sort_type">"Tipo"</string>
+    <string name="rename_file">"Cambiar nombre"</string>
+    <string name="video_title">"Título:"</string>
+    <string name="video_datetaken">"Hora:"</string>
+    <string name="video_duration">"Duración:"</string>
+    <string name="video_size">"Tamñ arch:"</string>
+    <string name="video_path">"Ruta:"</string>
+    <string name="close">"Cerrar"</string>
+    <string name="select_item">"Seleccionar archivos"</string>
+    <string name="search">"Buscar"</string>
+    <string name="search_empty">"SIN coincidencias."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Ningún vídeo"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"No se puede reproducir el vídeo."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"El elemen se eliminará"</string>
+    <string name="video_item_deleted">"el elemento se eliminará."</string>
+    <string name="video_items_deleted">"los elementos se eliminarán."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Tipo de vídeo:"</string>
+    <string name="video_count">"Número de vídeos:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Pulsar para seleccionar"</string>
+    <string name="selectcount">"Seleccionados: %1$d"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Reanudar vídeo"</string>
+    <string name="resume_playing_settingtips">"Seleccione si desea reanudar desde el punto en el que se detuvo."</string>
+    <string name="capture_title">"Mostrar el botón de captura"</string>
+    <string name="capture_summary">"Haga clic en el icono de la cámara para realizar capturas de pantalla si se está reproduciendo un archivo local."</string>
+    <string name="loop_title">"Permitir bucle"</string>
+    <string name="loop_summary">"Volver a reproducir al finalizar"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"Aceptar"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Ajustar brillo y volumen"</string>
+	<string name="adjust_brightness_content">"Para ajustar la voz, desplácese hacia arriba y hacia abajo por el lateral derecho de la pantalla. Para ajustar el brillo, use el lado izquierdo."</string>
+    <string name="control_playback_title">"Controlar el progreso de la reproducción"</string>
+    <string name="control_playback_content">"Para controlar el progreso de la reproducción, desplácese hacia la derecha o hacia la izquierda en la pantalla."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Recortando..."</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Respaldo cancelado"</string>
+    <string name="tipscontent">"cuando se abre un vídeo: \nPara escalar el vídeo, pellizque o amplíe con dos dedos. \nPara volver a la pantalla completa, toque dos veces."</string>
+    <string name="tipsok">"Aceptar"</string>
+    <string name="tipscheckbox">"No recordarme de nuevo"</string>
+
+</resources>

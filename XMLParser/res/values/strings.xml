@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Video Player</string>
+    <string name="list_tab">LIST</string>
+    <string name="thumb_tab">THUMBNAIL</string>
+    <string name="folder_tab">FOLDER</string>
+    <string name="movie_view_label">Video player</string>
+    <string name="loading_video">Loading video\u2026</string>
+
+    <!-- Movie View Resume Playing dialog title -->
+    <string name="resume_playing_title">Resume play</string>
+    <string name="resume_playing_message">Resume playing from %s?</string>
+    <string name="resume_playing_resume">Resume playing</string>
+    <string name="resume_playing_restart">Start over</string>
+    <string name="resume_playing_settingtips">Start at the point where you left off last time</string>
+    <string name="ask">Ask each time</string>
+    <string name="trim_label">Trim video</string>
+    <string name="select_item">Multi-Select</string>
+    <string name="deleted">Deleted</string>
+    <string name="select_all">All</string>
+    <string name="details">Details</string>
+    <string name="close">Close</string>
+    <string name="title">Title</string>
+
+    <!-- TrimVideo string -->
+    <string name="save_into">saved to</string>
+    <string name="trimming">Trimming</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="folder_download">Download</string>
+    <string name="trim_too_short">Can not trim: target video is too short</string>
+    <string name="save" msgid="8140440041190264400">Save</string>
+    <string name="trim_error">Trim error</string>
+    <string name="video_trim_error">The video can\'t be trimmed. Save error.</string>
+
+    <!-- yzy for musicutils string -->
+    <string name="sdcard_missing_title">No SD card</string>
+    <string name="sdcard_missing_title_nosdcard">No USB storage</string>
+    <string name="sdcard_missing_message">Your phone doesn\'t have an SD card inserted.</string>
+    <string name="sdcard_missing_message_nosdcard">Your phone doesn\'t have USB storage.</string>
+    <string name="sdcard_busy_title">SD card unavailable</string>
+    <string name="sdcard_busy_title_nosdcard">USB storage unavailable</string>
+    <string name="sdcard_busy_message">Your SD card is busy.</string>
+    <string name="sdcard_busy_message_nosdcard">Your USB storage is busy.</string>
+    <string name="sdcard_error_title">SD card error</string>
+    <string name="sdcard_error_title_nosdcard">USB storage error</string>
+    <string name="sdcard_error_message">An error was encountered on your SD card.</string>
+    <string name="sdcard_error_message_nosdcard">An error was encountered on your USB storage.</string>
+    <string name="videos_title">Videos</string>
+    <string name="no_videos_title">No videos</string>
+    <string name="scanning">Scanning SD card\u2026</string>
+    <string name="scanning_nosdcard">Scanning USB storage\u2026</string>
+    <string name="VideoView_error_title">Video problem</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">This video isn\'t valid for streaming to this device.</string>
+    <string name="VideoView_error_text_unknown">Can\'t play this video.</string>
+    <string name="VideoView_error_button">OK</string>
+
+    <!-- form zte 1.7 -->
+    <string name="details_ms" ifTranslate="false">%1$02d:%2$02d</string>
+    <string name="details_hms" ifTranslate="false">%1$d:%2$02d:%3$02d</string>
+    <string name="selectcount">%1$d selected</string>
+    <string name="all_videos">ALL</string>
+    <string name="recently_add">Last Added</string>
+    <string name="Camera_videos">Camera Videos</string>
+    <string name="share">Share</string>
+    <string name="delete_item">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="rename_file">Rename</string>
+    <string name="rename_file_message">New name of the file</string>
+    <string name="delete_yes">Yes</string>
+    <string name="delete_no">No</string>
+    <string name="video_deleted">The item will be deleted.</string>
+    <string name="video_deleted_message">deleted </string>
+    <string name="video_path">Path: </string>
+    <string name="video_duration">Duration: </string>
+    <string name="video_datetaken">Time: </string>
+    <string name="video_size">File Size: </string>
+    <string name="video_title">Title: </string>
+    <string name="video_count">Video count: </string>
+    <string name="video_type">Video type: </string>
+    <string name="create_playlist_create_text">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="rename_playlist_same_prompt">"Rename "</string>
+    <string name="rename_playlist_diff_prompt">"Rename "</string>
+    <string name="video_rename_success">Rename Success!</string>
+    <string name="video_rename_failed">Rename Failed!</string>
+    <string name="video_rename_not_null">New name can\'t be empty.</string>
+
+    <!-- video popup menu -->
+    <string name="popup_share">Share</string>
+    <string name="popup_delete">Delete</string>
+    <string name="popup_dolby">Dolby Digital Plus</string>
+    <string name="popup_clip">Trim</string>
+    <string name="popup_goto">Go to</string>
+    <string name="popup_settings">Settings</string>
+
+    <!-- Define the strings for the setting screen -->
+    <string name="setting_label">Settings</string>
+    <string name="landscape_title">Always landscape</string>
+    <string name="autonext_title">Autoplay next</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+    <string name="autonext_summary">Automatically play the next video in the queue when playing My Videos.</string>
+    <string name="capture_title">Display screenshot button</string>
+    <string name="capture_summary">Tab the button to capture screenshot</string>
+    <string name="loop_title">Loop</string>
+    <string name="loop_summary">Play again when over</string>
+    <string name="output_title">Speaker on</string>
+    <string name="output_summary">When headset plugged in, still output sound through speaker.</string>
+
+    <!-- dolby mobile -->
+    <string name="setting_mode">Dolby Digital Plus</string>
+    <string name="select_type_of_the_film">Select the Mode</string>
+    <string name="array_mtv">Dolby MTV Mode</string>
+    <string name="array_movie">Dolby Movie Mode</string>
+    <string name="dolby_on_notif">Dolby Digital Plus is on</string>
+    <string name="dolby_off_notif">Dolby Digital Plus is off</string>
+    <string name="dolby_sound_effect_reset">Configuration</string>
+    <string name="back">Back</string>
+    <!-- end -->
+
+    <string name="video_rename_exist">Duplicate name!</string>
+    <string name="video_rename_invalid">New name is not valid!</string>
+    <string name="menu_time">Time</string>
+    <string name="menu_name">Name</string>
+    <string name="sort">Sort by</string>
+    <string name="sort_time">Time</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_type">Type</string>
+    <string name="menu">Menu</string>
+    <string name="video_item_deleted">item will be deleted.</string>
+    <string name="video_items_deleted">items will be deleted.</string>
+    <string name="dolby">Dolby Digital Plus</string>
+    <string name="clip">Clip</string>
+    <string name="search">Search</string>
+    <string name="search_video">Please type video name</string>
+    <string name="search_folder">Please type folder name</string>
+    <string name="search_results_title">%1$s result(s) for \"%2$s\"</string>
+    <string name="search_empty">No matches.</string>
+    <string name="sd_scanning">Scanning media</string>
+    <string name="videosrssetting">SRS Setting</string>
+    <string name="saving">saving</string>
+    <string name="saved">saved.</string>
+    <string name="save_failed">Picture Error.</string>
+    <string name="drm_screenshot">Protected video. Cannot do screenshot.</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="list">List</string>
+    <string name="alive">AliveShare</string>
+	<string name="saving_pic">Picture is saving...</string>
+    <!-- end -->
+
+
+    <!-- add by tbz 2012.12.19  for ZMS begin -->
+    <string name="online_name">Online</string>
+    <string name="confirm">Confirm</string>
+    <string name="system_tips">System tips</string>
+    <string name="msg_network_nowifi_setting">You are using a WiFi network. To watch or to download, please go to the settings page settings.</string>
+    <string name="msg_error_title">Read data error</string>
+    <string name="video_Hottest">Hottest</string>
+    <string name="video_Latest">Latest</string>
+    <string name="video_lock">The screen has been locked</string>
+    <string name="video_unlock">The screen has been unlocked</string>
+    <string name="user_loading">Loading...</string>
+    <string name="user_wait">Please wait</string>
+    <string name="list_vlong">Runtime:</string>
+    <string name="prog_comefrom">Source:</string>
+    <string name="msg_error_value">Please check the network and try again.</string>
+    <string name="link_wait">Please wait...</string>
+    <string name="link_load">Loading...</string>
+    <string name="subject_info">Subject info</string>
+    <string name="e_cancel">Cancel</string>
+    <string name="e_ok">OK</string>
+    <string name="clear_cache_succeed">Clear cache succeed</string>
+    <string name="url_empty">URL input is empty</string>
+    <string name="exit_app_ensure">Are you sure you want to exit the program?</string>
+    <string name="msg_install_title">Download tips</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="msg_download_error">"Download error. Please try to play directly."</string>
+    <string name="cmcc">China Mobile</string>
+    <string name="unicom">China Unicom</string>
+    <string name="telecommunications">China Telecom</string>
+    <string name="video_intro">Intro</string>
+    <string name="link_title">Related Video</string>
+    <string name="prog_flipin">Flip in</string>
+    <string name="prog_flipout">Flip out</string>
+    <string name="prog_continue">(Update)</string>
+    <string name="prog_final">（Ended）</string>
+    <string name="msg_webview_title">Flash support is required</string>
+    <string name="msg_webview_value">Please download the FLASH plug-in.</string>
+    <string name="prog_download">Download</string>
+    <string name="msg_network_nowifi">You are using a non-WiFi network. Using a WiFi network is recommended.</string>
+    <string name="refresh_toast">The program has been updated.</string>
+    <string name="net_setup">Network settings</string>
+    <string name="net_continue">Continue to watch</string>
+    <string name="tab_more">More video</string>
+    <string name="tab_refresh">Refresh</string>
+    <string name="no_network">There is no network connection. Please check your network, click Refresh and try again.</string>
+    <string name="play_movie">Play</string>
+    <string name="msg_install_line">Estream player not installed.\nDo you want to download and install?</string>
+    <string name="msg_down_title">Download online video player</string>
+    <string name="btn_download_ok">OK</string>
+    <string name="btn_download_cancel">Cancel</string>
+    <string name="msg_download_stream_title">Download Estream</string>
+    <string name="toast_not_found_apkfile">The corresponding APK files were not found.</string>
+    <string name="msg_download_complete">Do you want to install a new application?</string>
+    <string name="protected_files_share_failed">Sorry, you can\'t share protected files.</string>
+    <!-- for ZMS end -->
+
+
+    <!-- for float window begin -->
+    <string name="tipstitle">Tips</string>
+    <string name="tipstr">Picture in Picture:</string>
+    <string name="tipscontent">When video appears in picture in picture: \nTo enlarge picture, spread using two fingers. \nTo return to full screen, double tap.</string>
+    <string name="tipsok">OK</string>
+    <string name="tipscheckbox">Don\'t remind again</string>
+    <string name="autoplay">Automatically play the next</string>
+    <string name="settingtitle">Setting</string>
+    <string name="video_setting_item">Settings</string>
+    <!-- for float window end -->
+
+    <string name="adjust_brightness_title">Adjust brightness and volume</string>
+    <string name="adjust_brightness_content">To adjust volume, slide up or down on the right side of the screen. Adjust brightness on the left side.</string>
+    <string name="control_playback_title">Control playback progress</string>
+    <string name="control_playback_content">To control playback progress, slide right or left on the screen.</string>
+    <string name="myvideo">My videos</string>
+    <string name="view">View by</string>
+    <string name="folder">Folder</string>
+    <string name="always">Always</string>
+    <string name="never">Never</string>
+    <string name="no_space">Insufficient storage space.</string>
+    <string name="save_error">Error. Can\'t trim.</string>
+    <string name="take_picture_error">Error. Can\'t save..</string>
+    <string name="fit_to_screen">FIT TO SCREEN</string>
+    <string name="crop">CROP</string>
+    <string name="aliveshare_download">You have not installed AliveShare.</string>
+    <string name="aliveshare_download2">Use AliveShare to share user data free of charge, instantly and effectively, for your convenience. Link:http://cloud.ztedevices.com/s/oK7Ow</string>
+    <string name="download">Download</string>
+    <string name="videos_no_available">No videos available</string>
+    <string name="tap_to_select">Tap to select</string>
+
+    <!-- add by sunwei for TD OptionsMenu -->
+    <string name="goto_stream">Goto Stream...</string>
+    <!-- for TD OptionsMenu end -->
+    
+    <string name="start_capture">Saving started. Please wait…</string>
+    <string name="mobile_foxtel">Mobile Foxtel</string>
+    <string name="picture_saved">Screenshot is saved</string>
+    <string name="exit_trim">Exit trim video?</string>
+    <string name="help">Help</string>
+
+</resources>

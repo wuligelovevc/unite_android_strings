@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"VideoPlayer"</string>
+    <string name="popup_share">"Jaa"</string>
+    <string name="popup_delete">"Poista"</string>
+    <string name="popup_clip">"Leikkaa"</string>
+    <string name="popup_settings">"Asetukset"</string>
+    <string name="myvideo">"Omat videot"</string>
+    <string name="delete_item">"Poista"</string>
+    <string name="delete_yes">"Kyllä"</string>
+    <string name="delete_no">"Ei"</string>
+    <string name="share">"Jaa"</string>
+    <string name="rename">"Nimeä uudelleen"</string>
+    <string name="details">"Tiedot"</string>
+    <string name="list">"Luettelo"</string>
+    <string name="thumbnail">"Pikkukuva"</string>
+    <string name="folder">"kansio"</string>
+    <string name="view">"Tarkasteluperuste"</string>
+    <string name="cancel">"Peruuta"</string>
+    <string name="sort">"Lajittelujärjestys"</string>
+    <string name="sort_time">"Aika"</string>
+    <string name="sort_name">"Nimi"</string>
+    <string name="sort_size">"Koko"</string>
+    <string name="sort_type">"Tyyppi"</string>
+    <string name="rename_file">"Nimeä uudelleen"</string>
+    <string name="video_title">"Ominaisuudet kohteella %1$s"</string>
+    <string name="video_datetaken">"Aika:"</string>
+    <string name="video_duration">"Kesto:"</string>
+    <string name="video_size">"Tiedoston koko:"</string>
+    <string name="video_path">"Polku:"</string>
+    <string name="close">"Sulje"</string>
+    <string name="select_item">"Valitse kohde (kohteet)"</string>
+    <string name="search">"Haku"</string>
+    <string name="search_empty">"EI vastineita."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Ei videoita"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Videota ei voida toistaa."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Kohde poistetaan"</string>
+    <string name="video_item_deleted">"kohde poistetaan."</string>
+    <string name="video_items_deleted">"kohdetta poistetaan."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Videotyyppi:"</string>
+    <string name="video_count">"Videomäärä:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Valitse napauttamalla"</string>
+    <string name="selectcount">"%1$d valittu"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Jatka videon toistoa"</string>
+    <string name="resume_playing_settingtips">"Valitse, jatketaanko pysäytetystä kohdasta."</string>
+    <string name="capture_title">"Näytä kuvauspainike"</string>
+    <string name="capture_summary">"Ota näyttökuva paikallista tiedostoa toistettaessa kamerakuvaketta napsauttamalla."</string>
+    <string name="loop_title">"Soita toistaen"</string>
+    <string name="loop_summary">"Toista uudelleen, kun loppuu"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Säädä kirkkautta ja äänenvoimakkuutta"</string>
+	<string name="adjust_brightness_content">"Säädä ääntä liu\'uttamalla ylös- tai alaspäin näytön oikeassa reunassa. Säädä kirkkautta vasemmassa reunassa."</string>
+    <string name="control_playback_title">"Hallitse toiston edistymistä"</string>
+    <string name="control_playback_content">"Hallitse toiston edistymistä liu\'uttamalla näytössä oikealle tai vasemmalle."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Leikataan"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Vihjeitä"</string>
+    <string name="tipscontent">"kun video ponnahtaa: \nSkaalaa videota nipistämällä tai venyttämällä kahta sormea. \nPalaa koko näyttöön kaksoisnapauttamalla."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Älä muistuta uudelleen"</string>
+
+</resources>

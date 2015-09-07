@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"VideoPlayer"</string>
+    <string name="popup_share">"共有"</string>
+    <string name="popup_delete">"削除"</string>
+    <string name="popup_clip">"トリミング"</string>
+    <string name="popup_settings">"設定"</string>
+    <string name="myvideo">"マイビデオ"</string>
+    <string name="delete_item">"削除"</string>
+    <string name="delete_yes">"はい"</string>
+    <string name="delete_no">"いいえ"</string>
+    <string name="share">"共有"</string>
+    <string name="rename">"名前を変更"</string>
+    <string name="details">"詳細"</string>
+    <string name="list">"リスト"</string>
+    <string name="thumbnail">"サムネイル"</string>
+    <string name="folder">"フォルダ"</string>
+    <string name="view">"視聴者"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="sort">"並べ替え"</string>
+    <string name="sort_time">"時間"</string>
+    <string name="sort_name">"名前"</string>
+    <string name="sort_size">"サイズ"</string>
+    <string name="sort_type">"タイプ"</string>
+    <string name="rename_file">"名前を変更"</string>
+    <string name="video_title">"タイトル:"</string>
+    <string name="video_datetaken">"時刻:"</string>
+    <string name="video_duration">"再生時間:"</string>
+    <string name="video_size">"ファイルサイズ:"</string>
+    <string name="video_path">"ファイルのパス"</string>
+    <string name="close">"閉じる"</string>
+    <string name="select_item">"項目を選択"</string>
+    <string name="search">"検索"</string>
+    <string name="search_empty">"一致なし。"</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"動画がありません"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"この動画を再生できません。"</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"アイテムが削除されます。"</string>
+    <string name="video_item_deleted">"アイテムが削除されます。"</string>
+    <string name="video_items_deleted">"アイテムが削除されます。"</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"動画タイプ:"</string>
+    <string name="video_count">"動画数:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"タップして選択"</string>
+    <string name="selectcount">"%1$d個選択済み"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"動画の再開"</string>
+    <string name="resume_playing_settingtips">"停止した地点から再開するかどうか選択してください。"</string>
+    <string name="capture_title">"ディスプレイキャプチャボタン"</string>
+    <string name="capture_summary">"ローカルファイル再生時にカメラアイコンをクリックすると、スクリーンショットをキャプチャします。"</string>
+    <string name="loop_title">"繰り返す"</string>
+    <string name="loop_summary">"終了時に再び再生する"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"明るさと音量を調節"</string>
+	<string name="adjust_brightness_content">"音声を調節するには、画面右側を上あるいは下にスライドさせてください。明るさの調節は左側です。"</string>
+    <string name="control_playback_title">"再生の進行をコントロール"</string>
+    <string name="control_playback_content">"再生の進行をコントロールするには、画面を左右にスライドしてください。"</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"トリミング"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"ヒント"</string>
+    <string name="tipscontent">"動画ポップ時:\n動画をスケールするには、2本の指でピンチあるいはストレッチしてください。\n全画面に戻るには、ダブルタップしてください。"</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"改めて確認しない"</string>
+
+</resources>

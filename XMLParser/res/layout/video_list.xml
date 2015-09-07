@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:divider="#C0C0C0"
+        android:dividerHeight="1px"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_ui"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bottom_bg"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+        
+        <include
+            android:id="@+id/delete_menu"
+            layout="@layout/bottom_delete_bar" />
+
+       <include
+            android:id="@+id/share_menu"
+            layout="@layout/bottom_share_bar" />
+    </RelativeLayout>
+
+</LinearLayout>

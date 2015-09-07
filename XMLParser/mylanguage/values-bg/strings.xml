@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"VideoPlayer"</string>
+    <string name="popup_share">"Споделяне"</string>
+    <string name="popup_delete">"Изтриване"</string>
+    <string name="popup_clip">"Съкращаване"</string>
+    <string name="popup_settings">"Настройки"</string>
+    <string name="myvideo">"Моите видеоклипове"</string>
+    <string name="delete_item">"Изтриване"</string>
+    <string name="delete_yes">"Да"</string>
+    <string name="delete_no">"Не"</string>
+    <string name="share">"Споделяне"</string>
+    <string name="rename">"Преименуване"</string>
+    <string name="details">"Подробности"</string>
+    <string name="list">"Списък"</string>
+    <string name="thumbnail">"Миниатюра"</string>
+    <string name="folder">"папка"</string>
+    <string name="view">"Преглед по"</string>
+    <string name="cancel">"Отказ"</string>
+    <string name="sort">"Сортиране по"</string>
+    <string name="sort_time">"Час"</string>
+    <string name="sort_name">"Име"</string>
+    <string name="sort_size">"Размер"</string>
+    <string name="sort_type">"Тип"</string>
+    <string name="rename_file">"Преименуване"</string>
+    <string name="video_title">"Заглавие:"</string>
+    <string name="video_datetaken">"Час:"</string>
+    <string name="video_duration">"Продължителност:"</string>
+    <string name="video_size">"Размер на файла"</string>
+    <string name="video_path">"Пътека:"</string>
+    <string name="close">"Затваряне"</string>
+    <string name="select_item">"Множествен избор"</string>
+    <string name="search">"Търсене"</string>
+    <string name="search_empty">"НЯМА съвпадения."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Няма видеозаписи"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Този видеоклип не може да се пусне."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Избраните съобщения ще бъдат изтрити."</string>
+    <string name="video_item_deleted">"Елементът ще се изтрие."</string>
+    <string name="video_items_deleted">"Компонентите ще бъдат изтрити"</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Тип видео:"</string>
+    <string name="video_count">"Брой видеоклипове:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Включи за избиране"</string>
+    <string name="selectcount">"Избрани: %1$d"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Възобновяване на видеоклип"</string>
+    <string name="resume_playing_settingtips">"Изберете дали възпроизвеждането да продължава оттам, откъдето сте го спрели."</string>
+    <string name="capture_title">"Показване на бутона за заснемане"</string>
+    <string name="capture_summary">"Кликнете върху иконата на фотоапарат, за да направите екранна снимка при възпроизвеждане на локален файл."</string>
+    <string name="loop_title">"Повтаряне"</string>
+    <string name="loop_summary">"Повторно пускане след завършване"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"ОК"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Коригиране на силата на звука и яркостта"</string>
+	<string name="adjust_brightness_content">"За да коригирате силата на звука, плъзнете нагоре или надолу в лявата част на екрана. За да коригирате яркостта, направете същото в дясната му половина."</string>
+    <string name="control_playback_title">"Контролиране на хода на възпроизвеждане"</string>
+    <string name="control_playback_content">"За да контролирате хода на възпроизвеждане, плъзнете надясно или наляво по екрана."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Отрязва се"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Съвети"</string>
+    <string name="tipscontent">"При показване на видеоклип: \nЗа преоразмеряване съберете или разтворете два пръста. \nЗа да се върнете към цял екран, докоснете два пъти."</string>
+    <string name="tipsok">"ОК"</string>
+    <string name="tipscheckbox">"Без повече напомняния"</string>
+
+</resources>

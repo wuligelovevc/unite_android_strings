@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/helpview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10px"
+        android:scaleType="fitCenter"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/contenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titletext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="100px"
+        android:scaleType="fitCenter"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ok"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" 
+        android:layout_centerVertical="true"
+        >
+
+        <ImageView
+            android:id="@+id/help01_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:scaleType="fitCenter"
+            android:src="@drawable/help_01" />
+
+        <ImageView
+            android:id="@+id/help02_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/help_02" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100px"
+        android:background="@drawable/btn_default_normal_holo_dark"
+        android:scaleType="fitCenter"
+        android:text="@string/ok"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

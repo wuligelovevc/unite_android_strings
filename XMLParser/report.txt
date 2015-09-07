@@ -1,0 +1,99 @@
+----------- The missing words in values -----------
+----------- The missing words in values-ar -----------
+autonext_title_diff
+help
+----------- The missing words in values-bg -----------
+autonext_title_diff
+help
+----------- The missing words in values-cs -----------
+autonext_title_diff
+help
+----------- The missing words in values-da -----------
+autonext_title_diff
+help
+----------- The missing words in values-de -----------
+view
+autonext_title_diff
+help
+trimming
+----------- The missing words in values-el -----------
+autonext_title_diff
+help
+----------- The missing words in values-es -----------
+autonext_title_diff
+help
+----------- The missing words in values-es-rUS -----------
+----------- The missing words in values-fi -----------
+autonext_title_diff
+help
+----------- The missing words in values-fr -----------
+----------- The missing words in values-fr-rCA -----------
+----------- The missing words in values-hu -----------
+autonext_title_diff
+help
+----------- The missing words in values-it -----------
+autonext_title_diff
+help
+----------- The missing words in values-iw -----------
+autonext_title_diff
+help
+----------- The missing words in values-ja -----------
+autonext_title_diff
+help
+----------- The missing words in values-land -----------
+res/values-land/strings.xml is not exists!!!!
+----------- The missing words in values-nb -----------
+autonext_title_diff
+help
+----------- The missing words in values-nl -----------
+autonext_title_diff
+help
+adjust_brightness_title
+adjust_brightness_content
+control_playback_title
+control_playback_content
+----------- The missing words in values-pl -----------
+autonext_title_diff
+help
+----------- The missing words in values-pt-rPT -----------
+autonext_title_diff
+help
+----------- The missing words in values-ro -----------
+autonext_title_diff
+help
+----------- The missing words in values-ru -----------
+autonext_title_diff
+help
+----------- The missing words in values-sk -----------
+autonext_title_diff
+help
+----------- The missing words in values-sv -----------
+autonext_title_diff
+help
+----------- The missing words in values-tr -----------
+details
+thumbnail
+folder
+sort_time
+video_title
+video_duration
+video_size
+search_empty
+VideoView_error_text_unknown
+video_deleted
+video_item_deleted
+video_items_deleted
+video_type
+video_count
+selectcount
+loop_title
+loop_summary
+autonext_title_diff
+help
+trimming
+----------- The missing words in values-v11 -----------
+res/values-v11/strings.xml is not exists!!!!
+----------- The missing words in values-v14 -----------
+res/values-v14/strings.xml is not exists!!!!
+----------- The missing words in values-zh-rCN -----------
+----------- The missing words in values-zh-rTW -----------

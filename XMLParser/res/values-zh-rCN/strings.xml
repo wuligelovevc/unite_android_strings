@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">视频</string>
+	<string name="list_tab">视频列表</string>
+	<string name="thumb_tab">视频缩略图</string>    
+	<string name="folder_tab">文件夹</string> 
+	<string name="movie_view_label">视频</string> 
+	<string name="loading_video">加载视频\u2026</string>
+	
+	<!-- Movie View Resume Playing dialog title -->
+	<string name="resume_playing_title">继续播放视频</string>
+	<string name="resume_playing_message">从 %s 开始继续播放？</string>
+	<string name="resume_playing_resume">继续播放</string>
+	<string name="resume_playing_restart">重新开始</string>
+		<string name="resume_playing_settingtips">是否从上次停止的位置恢复播放</string>
+		<string name="ask">询问</string>
+	<string name="trim_label">剪辑视频</string>
+	
+	<string name="select_item">多选</string>
+	<string name="deleted">删除</string>
+	<string name="select_all">全选</string> 
+	<string name="details">详细信息</string> 
+	<string name="close">关闭</string>
+	 
+	<string name="title">文件名</string>
+
+	<!-- TrimVideo string -->
+	<string name="save_into">已保存，</string>
+	<string name="trimming">"正在剪辑"</string>
+	<string name="please_wait">请稍候</string>
+	<string name="folder_download">下载</string>
+	<string name="trim_too_short">无法剪辑：目标视频太短</string>
+	<string name="save">保存</string>
+	<string name="trim_error">剪辑出错</string>
+	<string name="video_trim_error">此文件不支持剪辑，保存失败</string>
+    
+	<string name="sdcard_missing_title">"无 SD 卡"</string>
+	<string name="sdcard_missing_title_nosdcard">"无 USB 存储设备"</string>
+	<string name="sdcard_missing_message">"手机中未插入 SD 卡。"</string>
+	<string name="sdcard_missing_message_nosdcard">"您的手机没有 USB 存储设备。"</string>
+	<string name="sdcard_busy_title">"SD 卡不可用"</string>
+	<string name="sdcard_busy_title_nosdcard">"不存在 USB 存储设备"</string>
+	<string name="sdcard_busy_message">"您的 SD 卡正忙。"</string>
+	<string name="sdcard_busy_message_nosdcard">"您的 USB 存储设备正忙。"</string>
+	<string name="sdcard_error_title">"SD 卡错误"</string>
+	<string name="sdcard_error_title_nosdcard">"USB 存储设备错误"</string>
+	<string name="sdcard_error_message">"SD 卡出现错误。"</string>
+	<string name="sdcard_error_message_nosdcard">"USB 存储设备出现错误。"</string>
+	<string name="videos_title">Videos</string>
+	<string name="no_videos_title">无视频</string>
+	<string name="scanning">正在扫描 SD 卡...</string>
+	<string name="scanning_nosdcard">正在扫描 USB 存储设备...</string>
+    
+    <string name="VideoView_error_title">播放出错</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">This video isn\'t valid for streaming to this device.</string>
+    <string name="VideoView_error_text_unknown">无法播放该视频</string>
+    <string name="VideoView_error_button">确定</string>
+    
+    <!-- form zte 1.7 -->
+    <string name="details_ms" ifTranslate="false">%1$02d:%2$02d</string>
+    <string name="details_hms" ifTranslate="false">%1$d:%2$02d:%3$02d</string>
+    <string name="selectcount">已选择 %1$d 项</string>
+    <string name="share">分享</string>
+    <string name="delete_item">删除</string>
+    <string name="rename">重命名</string>
+    <string name="rename_file">重命名文件</string>
+    <string name="rename_file_message">文件的新名称</string>
+    <string name="delete_yes">确定</string>
+    <string name="delete_no">取消</string>
+    <string name="video_deleted">此条目将要被删除</string> 
+    <string name="video_deleted_message">已删除 </string>  
+    <string name="video_path">路径: </string>
+    <string name="video_duration">时长: </string>
+    <string name="video_datetaken">日期: </string>
+    <string name="video_size">大小: </string>
+    <string name="video_title">标题: </string>
+    <string name="video_count">视频数量: </string>
+    <string name="video_type">视频格式: </string>
+    <string name="create_playlist_create_text">保存</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="rename_playlist_same_prompt" >"Rename "</string>
+    <string name="rename_playlist_diff_prompt" >"Rename "</string>
+    <string name="video_rename_success">重命名成功！ </string>
+    <string name="video_rename_failed">重命名失败!</string>
+    <string name="video_rename_not_null">文件的新名称不能为空！</string>
+
+    <!-- video popup menu -->
+    <string name="popup_share">分享</string>
+    <string name="popup_delete">删除</string>
+    <string name="popup_dolby">杜比数字+</string> 
+    <string name="popup_clip">剪辑</string> 
+    <string name="popup_goto">跳转</string> 
+    <string name="popup_settings">设置</string>   
+    
+    <!-- Define the strings for the setting screen -->
+    <string name="setting_label">设置</string>
+    <string name ="landscape_title">始终横屏</string>
+    <string name = "autonext_title">自动播放下一视频</string>
+    <string name = "autonext_title_diff">自动播放下一视频</string>
+    <string name = "autonext_summary">我的视频中的文件播放结束时可以自动播放下一个</string>
+    <string name ="capture_title">显示截图按键</string>
+    <string name ="capture_summary">播放本地视频文件时可以点击照相图标进行视频截图</string>
+    <string name="loop_title">循环</string>
+    <string name ="loop_summary">循环播放</string>
+    <string name="output_title">外放打开</string>
+    <string name ="output_summary">插入耳机声音可切换到外放</string>
+
+    
+    <!-- dolby mobile  -->
+    <string name="setting_mode">杜比数字+</string>
+    <string name="select_type_of_the_film">选择影片类型</string>
+    <string name="array_mtv">MTV杜比模式</string>
+    <string name="array_movie">视频杜比模式</string>	
+    <string name="dolby_on_notif">杜比打开</string>
+    <string name="dolby_off_notif">杜比关闭</string>
+    <string name="dolby_sound_effect_reset">杜比重置</string>
+    <string name="back">返回</string>
+    <!-- end -->
+    
+	<string name="video_rename_exist">文件名已存在</string>
+	<string name="video_rename_invalid">文件名无效</string>
+	
+	<string name="menu_time">时间</string>
+	<string name="menu_name">名称</string>
+	<string name="sort">排序方式</string>
+	<string name="sort_time">按时间</string>
+	<string name="sort_name">按名称</string>
+	<string name="sort_size">按大小</string>
+	<string name="sort_type">按类型</string>
+	<string name="menu">菜单</string>
+	<string name="video_item_deleted">个条目将被删除。</string> 
+	<string name="video_items_deleted">个条目将被删除。</string> 
+	<string name="dolby">杜比数字+</string> 
+	<string name="clip">裁剪</string> 
+	
+	<string name="search">搜索</string> 
+	<string name="search_memu">搜索</string> 
+	<string name="search_video">请输入名称</string> 
+	<string name="search_folder">请输入名称</string> 
+	<string name="search_results_title">%1$s 个搜索结果 \"%2$s\"</string>
+	<string name="search_empty">未找到匹配项</string>
+	<string name="sd_scanning">文件扫描中</string>
+	<string name="videosrssetting">SRS 设置</string>
+	<string name="saving">保存中</string>
+	<string name="saved">保存完成.</string> 
+	<string name="save_failed">截图失败.</string>
+	<string name ="drm_screenshot">版权文件无法截图.</string>
+	
+		<string name="thumbnail">缩略图</string> 
+	<string name="list">列表</string> 
+	<string name="alive">汇分享</string> 
+ 
+
+<!-- end -->  
+
+<!-- for ZMS begin-->
+<string name="online_name">在线视频</string>
+<string name="video_player_download_complete">下载完成</string>
+<string name="confirm">确定</string>
+<string name="system_tips">友情提示</string>
+<string name="msg_network_nowifi_setting">您正在使用非wifi网络，如要观看或下载，请去设置页设置</string>
+<string name="msg_error_title">读取数据出错</string>
+<string name="video_lock">屏幕已经被锁定</string>
+<string name="video_unlock">屏幕已经解除锁定</string>
+<string name="msg_error_value">请检查网络后重试</string>
+<string name="e_ok">确定</string>
+<string name="clear_cache_succeed">缓存清除成功</string>     
+<string name="e_cancel">取消</string>
+<string name="url_empty">URL输入为空</string>
+<string name="exit_app_ensure">您确定要退出程序吗？</string>
+<string name="msg_install_title">下载提示</string>
+<string name="yes">是</string>
+<string name="no">否</string>
+<string name="video_intro">简介</string>   
+<string name="link_title">相关视频</string>
+<string name="prog_flipin">点击收缩</string>
+<string name="prog_flipout">点击展开</string>
+<string name="user_wait">请稍等</string>
+<string name="prog_continue">（更新中）</string>
+<string name="prog_final">（已完结）</string>
+<string name="subject_info">专题详情</string>
+<string name="link_wait">请稍等...</string>
+<string name="msg_webview_title">需要FLASH支持</string>
+<string name="msg_webview_value">请下载FLASH插件</string>
+<string name="prog_download">下载</string>
+<string name="msg_download_error">"下载出错，请尝试直接播放"</string>
+<string name="cmcc">中国移动</string>
+<string name="unicom">中国联通</string>
+<string name="telecommunications">中国电信</string>
+<string name="msg_network_nowifi">您正在使用非wifi网络，建议在wifi下使用</string>
+<string name="net_setup">网络设置</string>
+<string name="net_continue">继续观看</string>
+<string name="refresh_toast">刷新成功,节目已更新</string>
+<string name="video_Hottest">最热视频</string>
+<string name="video_Latest">最新视频</string>
+<string name="tab_more">更多视频</string>
+<string name="tab_refresh">刷新</string>
+<string name="no_network">网络未连接，请检查您的网络，点击刷新并重试。</string>
+<string name="play_movie">播放</string>
+<string name="user_loading">正在加载...</string>
+<string name="list_vlong">时长：</string>
+<string name="prog_comefrom">来源：</string>
+<!-- add by tbz 2012.12.19 -->
+<string name="msg_install_line">本机没有安装欢流播放器 \n是否下载安装？</string>
+<string name="msg_download_title">下载在线播放器</string>
+<string name="btn_download_ok">立即后台下载</string>
+<string name="btn_download_cancel">暂不下载</string>
+<string name="msg_download_stream_title">下载Estream</string>
+<string name="toast_not_found_apkfile">未找到对应的Apk文件！</string>
+<string name="msg_download_complete">是否安装新的应用</string>
+<!-- add by tbz 2012.20 -->
+<string name="toast_not_return">屏幕已锁,无法返回</string>
+<!-- for ZMS end-->
+<string name="protected_files_share_failed">抱歉，不能分享受保护的视频.</string>
+
+<!-- for float window begin -->
+<string name="tipstitle">提示</string>
+<string name="tipstr">视频悬浮时:</string>
+<string name="tipscontent">视频悬浮时:可以拉伸视频以调整画面大小，双击可以全屏播放。</string>
+<string name="tipsok">确定</string>
+<string name="tipscheckbox">不再提示。</string>
+<!-- for float window end -->
+<string name="adjust_brightness_title">调节屏幕亮度与音量</string>
+<string name="adjust_brightness_content">在屏幕左侧上下滑动调节亮度，在屏幕右侧上下滑动调节声音</string>
+<string name="control_playback_title">调整播放进度</string>
+<string name="control_playback_content">在屏幕中间横向滑动可调整播放进度</string>
+
+<string name="myvideo">我的视频</string>
+<string name="view">查看方式</string> 
+<string name="folder">文件夹</string>
+<string name="always">始终，不再询问</string>
+<string name="never">从不</string>
+
+<string name="no_space">存储空间不足</string>
+<string name="save_error">裁剪文件失败</string>
+<string name="take_picture_error">保存图片失败</string>
+
+<string name="fit_to_screen">适应屏幕</string>
+<string name="crop">拉伸</string>
+
+<string name="aliveshare_download">您还未安装汇分享</string>
+<string name="aliveshare_download2">使用汇分享免费便捷分享用户数据.下载地址:http://cloud.ztedevices.com/s/oK7Ow</string>
+<string name="download">下载</string>
+
+   <string name="videos_no_available">无视频</string>
+   
+<string name="tap_to_select">点击选择</string>
+
+<!-- add by sunwei for TD OptionsMenu -->
+<string name="goto_stream">跳转到...</string>
+<!-- for TD OptionsMenu end -->
+
+<string name="start_capture">正在保存，请稍等...</string>
+<string name="picture_saved">截图已保存</string>
+<string name="help">帮助</string>
+<string name="all_videos">全部</string>
+<string name="recently_add">最近添加</string>
+<string name="Camera_videos">录像视频</string>
+<string name="saving_pic">正在保存图片…</string>
+<string name="link_load">正在加载…</string>
+<string name="msg_down_title">下载在线视频播放器</string>
+<string name="autoplay">自动播放下一首</string>
+<string name="settingtitle">设置</string>
+<string name="video_setting_item">设置</string>
+<string name="mobile_foxtel">移动Foxtel</string>
+
+</resources>

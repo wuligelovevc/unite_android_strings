@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- test -->
+	<string name="abc">cdef</string>
+	<string name="ab">b</string>
+	<string name="help">Help</string>
+</resources>

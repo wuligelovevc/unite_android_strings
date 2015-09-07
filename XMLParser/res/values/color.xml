@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff1e2024</color>
+    <color name="gray">#ff7e7e7e</color>
+    <color name="serial_panel">#ffd0d0d0</color>
+    <color name="bottom_dark">#303030</color>
+    <color name="purple">#781662</color>
+    <color name="half_white">#f0f0f0</color>
+    <color name="bottom_bg">#e4e7e9</color>
+    <color name="bright_volumn">#e300b0</color>
+    <color name="help_text">#009688</color>
+    <color name="movie_play_bg">#000000</color>
+    <color name="video_list_thumbnail_title_color">#666666</color>
+    <color name="video_folder_title_color">#333333</color>
+    <color name="video_summary_title_color">#999999</color>
+</resources>

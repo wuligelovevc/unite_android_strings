@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+       <!--
+    <include layout="@layout/title_classification" />
+-->
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:cacheColorHint="#ff000000"
+            android:divider="#cbcbcb"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:scrollbars="none" />
+    </LinearLayout>
+    
+      <RelativeLayout
+        android:id="@+id/ic_net_desconect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+<!--         android:layout_alignParentLeft="true" 
+        android:layout_alignParentTop="true"  -->
+        <ImageView
+            android:id="@+id/image_net_disconnected"
+            android:layout_width="126dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/network_is_disconnected"/>
+        <TextView
+          android:id="@+id/program_title_name"
+          android:layout_width="260dip"
+          android:layout_height="wrap_content"
+		  android:gravity="center_horizontal"
+          android:layout_centerHorizontal="true"
+          android:textColor="@color/black"
+          android:text="@string/no_network"
+          android:textSize="18sp"
+          android:layout_below="@+id/image_net_disconnected"
+          android:paddingTop="21dp"
+          />	
+	</RelativeLayout>
+   
+    <ProgressBar
+        android:id="@+id/pgb"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+        
+    <include layout="@layout/loadprogress" />
+
+</RelativeLayout>

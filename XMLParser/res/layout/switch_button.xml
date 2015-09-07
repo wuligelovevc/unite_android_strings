@@ -1,0 +1,9 @@
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginRight="2dp"
+    android:button="@drawable/video_check_selector"
+    android:clickable="false"
+    android:focusable="false"/>

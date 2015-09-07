@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <item 
+  android:id="@+id/play_menu_share" 
+  android:actionProviderClass="android.widget.ShareActionProvider"
+  android:title="@string/popup_share"/>
+  
+  <item android:id="@+id/play_menu_delete" android:title="@string/popup_delete" />
+  <item android:id="@+id/play_menu_dolby" android:title="@string/popup_dolby"/>
+  <item android:id="@+id/play_menu_clip" android:title="@string/popup_clip"/>
+  <item android:id="@+id/play_menu_goto" android:title="@string/popup_goto"/>
+  <item android:id="@+id/play_menu_settings" android:title="@string/popup_settings"/>
+   <item android:id="@+id/play_menu_srssettings" android:title="@string/videosrssetting"/>
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">视频</string>
+    <string name="popup_share">分享</string>
+    <string name="popup_delete">删除</string>
+    <string name="popup_clip">剪辑</string>
+    <string name="popup_settings">设置</string>
+    <string name="myvideo">我的视频</string>
+    <string name="delete_item">删除</string>
+    <string name="delete_yes">确定</string>
+    <string name="delete_no">取消</string>
+    <string name="share">分享</string>
+    <string name="rename">重命名</string>
+    <string name="details">详细信息</string>
+    <string name="list">列表</string>
+    <string name="thumbnail">缩略图</string>
+    <string name="folder">文件夹</string>
+    <string name="view">查看方式</string>
+    <string name="cancel">取消</string>
+    <string name="sort">排序方式</string>
+    <string name="sort_time">按时间</string>
+    <string name="sort_name">按名称</string>
+    <string name="sort_size">按大小</string>
+    <string name="sort_type">按类型</string>
+    <string name="rename_file">重命名文件</string>
+    <string name="video_title">标题: </string>
+    <string name="video_datetaken">日期: </string>
+    <string name="video_duration">时长: </string>
+    <string name="video_size">大小: </string>
+    <string name="video_path">路径: </string>
+    <string name="close">关闭</string>
+    <string name="select_item">多选</string>
+    <string name="search">搜索</string>
+    <string name="search_empty">未找到匹配项</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">无视频</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">无法播放该视频</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">此条目将要被删除</string>
+    <string name="video_item_deleted">个条目将被删除。</string>
+    <string name="video_items_deleted">个条目将被删除。</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">视频格式: </string>
+    <string name="video_count">视频数量: </string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">点击选择</string>
+    <string name="selectcount">已选择 %1$d 项</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">继续播放视频</string>
+    <string name="resume_playing_settingtips">是否从上次停止的位置恢复播放</string>
+    <string name="capture_title">显示截图按键</string>
+    <string name="capture_summary">播放本地视频文件时可以点击照相图标进行视频截图</string>
+    <string name="loop_title">循环</string>
+    <string name="loop_summary">循环播放</string>
+    <string name="autonext_title_diff">自动播放下一视频</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">确定</string>
+	<string name="help">帮助</string>
+	<string name="adjust_brightness_title">调节屏幕亮度与音量</string>
+	<string name="adjust_brightness_content">在屏幕左侧上下滑动调节亮度，在屏幕右侧上下滑动调节声音</string>
+    <string name="control_playback_title">调整播放进度</string>
+    <string name="control_playback_content">在屏幕中间横向滑动可调整播放进度</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"正在剪辑"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">提示</string>
+    <string name="tipscontent">视频悬浮时:可以拉伸视频以调整画面大小，双击可以全屏播放。</string>
+    <string name="tipsok">确定</string>
+    <string name="tipscheckbox">不再提示。</string>
+
+</resources>

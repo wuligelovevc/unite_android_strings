@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/novideos"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:text="@string/no_videos_title"
+            android:textColor="@color/video_list_thumbnail_title_color"
+            android:textSize="22sp" />
+    </FrameLayout>
+
+</RelativeLayout>

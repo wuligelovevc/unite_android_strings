@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Lecteur Vidéo"</string>
+    <string name="popup_share">"Partager"</string>
+    <string name="popup_delete">"Supprimer"</string>
+    <string name="popup_clip">"Découper"</string>
+    <string name="popup_settings">"Paramètres"</string>
+    <string name="myvideo">"Mes vidéos"</string>
+    <string name="delete_item">"Supprimer"</string>
+    <string name="delete_yes">"Oui"</string>
+    <string name="delete_no">"Non"</string>
+    <string name="share">"Partager"</string>
+    <string name="rename">"Renommez"</string>
+    <string name="details">"Infos"</string>
+    <string name="list">"Liste"</string>
+    <string name="thumbnail">"Miniature"</string>
+    <string name="folder">"Dossier"</string>
+    <string name="view">"Afficher par"</string>
+    <string name="cancel">"Annuler"</string>
+    <string name="sort">"Tri par"</string>
+    <string name="sort_time">"Heure"</string>
+    <string name="sort_name">"Nom"</string>
+    <string name="sort_size">"Taille"</string>
+    <string name="sort_type">"Type"</string>
+    <string name="rename_file">"Renommez"</string>
+    <string name="video_title">"Titre:"</string>
+    <string name="video_datetaken">"Heure"</string>
+    <string name="video_duration">"Durée :"</string>
+    <string name="video_size">"Taille du fichier:"</string>
+    <string name="video_path">"Chemin d\'accès:"</string>
+    <string name="close">"Fermer"</string>
+    <string name="select_item">"Sélectionner élément"</string>
+    <string name="search">"Rechercher"</string>
+    <string name="search_empty">"Aucune occurrence"</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Aucune vidéo trouvée"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Impossible de lire cette vidéo."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"L\'élément sera supprimé"</string>
+    <string name="video_item_deleted">"L\'élément va être supprimé."</string>
+    <string name="video_items_deleted">"Les articles seront supprimés."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Type de vidéo :"</string>
+    <string name="video_count">"Nombre de visionnages :"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Appuyez pour sélectionner"</string>
+    <string name="selectcount">"%1$d sélectionné"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Reprendre la vidéo"</string>
+    <string name="resume_playing_settingtips">"Sélectionnez l\'option si vous souhaitez reprendre là où vous vous êtes arrêté."</string>
+    <string name="capture_title">"Afficher le bouton de capture"</string>
+    <string name="capture_summary">"Cliquez sur l\'icône de l\'appareil photo pour prendre une capture d\'écran lorsque le fichier local est en cours de lecture."</string>
+    <string name="loop_title">"Lire en boucle"</string>
+    <string name="loop_summary">"Relancer la lecture une fois terminé"</string>
+    <string name="autonext_title_diff">"Lire automatiquement l\'élément suivant"</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Aide</string>
+	<string name="adjust_brightness_title">"Réglage de la luminosité et du volume"</string>
+	<string name="adjust_brightness_content">"Pour régler le volume, faites glisser votre doigt vers le haut ou le bas sur la droite de l\'écran. Le réglage de la luminosité s\'effectue sur la gauche de l\'écran."</string>
+    <string name="control_playback_title">"Contrôle de la progression de la lecture"</string>
+    <string name="control_playback_content">"Pour contrôler la progression de la lecture, faites glisser votre doigt vers la droite ou la gauche de l\'écran."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Découpage"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Astuces"</string>
+    <string name="tipscontent">"Quand la vidéo s\'ouvre : Pour réduire ou agrandir une vidéo, pincez-la ou étirez-la avec deux doigts. Appuyez deux fois pour revenir en plein écran."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">Ne plus relancer</string>
+
+</resources>

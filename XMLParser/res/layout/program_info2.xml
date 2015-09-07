@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+   <!--
+    <include layout="@layout/title_classification" />
+-->
+
+    <ScrollView
+    	android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdgeLength="0dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/program_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/program_title_img"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" android:layout_marginLeft="14dp"/>
+
+                <RatingBar
+                    android:id="@+id/program_title_rate"
+                    style="@style/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_alignLeft="@+id/program_title_name"
+                    android:layout_below="@+id/program_title_res"
+                    android:layout_marginTop="3dp"
+                    android:isIndicator="true" />
+
+                <TextView
+                    android:id="@+id/program_title_name"
+                    style="@style/pro_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/program_title_img"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/program_title_img" />
+
+                <TextView
+                    android:id="@+id/program_title_time"
+                    style="@style/pro_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/program_title_name"
+                    android:layout_below="@id/program_title_name"
+                    android:text="@string/list_vlong"/>
+
+                <TextView
+                    android:id="@+id/program_title_res"
+                    style="@style/pro_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/program_title_name"
+                    android:layout_below="@+id/program_title_time"
+                    android:text="@string/prog_comefrom" />
+            </RelativeLayout>
+
+	            <RelativeLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="left"
+	                android:orientation="horizontal" android:layout_marginLeft="26dp">
+	
+	                <Button
+	                    android:id="@+id/program_title_play"
+	                    android:layout_width="87dp"
+	                    android:layout_height="36dp"
+	                    android:background="@drawable/selector_play" android:text="@string/play_movie" 
+	                    android:textColor="@color/black" android:layout_centerInParent="true"
+	                    android:drawableLeft="@drawable/ic_play"/>
+	                <!-- <ImageView
+	                	android:layout_width="wrap_content"
+	                	android:layout_height="wrap_content"
+	                	android:layout_centerVertical="true"
+	                	android:background="@drawable/ic_play" android:layout_marginLeft="4dp"/> -->
+					
+	            </RelativeLayout>
+	
+				<ImageView
+	                android:id="@+id/bg_03"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/ic_arrows" 
+	                android:layout_marginLeft="46dp"
+	                android:layout_marginTop="9dp"
+	                
+	                />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                
+                android:background="@drawable/bg_02"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/ll_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+               		android:background="@drawable/bg_02"
+                    android:orientation="horizontal" 
+                    android:layout_marginLeft="14dp">
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="280dp"
+                android:background="@drawable/bg_02" />
+
+            <LinearLayout
+                android:id="@+id/program_jianjie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_02"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="25dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="29dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="14dp"
+                	
+                	android:layout_gravity="center_vertical"
+                    android:text="@string/video_intro"
+                    android:textSize="18sp" 
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                	/>
+
+                <TextView
+                    android:id="@+id/jianjie_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/prog_flipout"
+                    android:textSize="15sp" 
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/program_jiejian_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:paddingRight="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/show_down" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/program_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

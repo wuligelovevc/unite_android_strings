@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"VideoPlayer"</string>
+    <string name="popup_share">"Sdílet"</string>
+    <string name="popup_delete">"Smazat"</string>
+    <string name="popup_clip">"Oříznout"</string>
+    <string name="popup_settings">"Nastavení"</string>
+    <string name="myvideo">"Moje videa"</string>
+    <string name="delete_item">"Smazat"</string>
+    <string name="delete_yes">"Ano"</string>
+    <string name="delete_no">"Ne"</string>
+    <string name="share">"Sdílet"</string>
+    <string name="rename">"Přejmenovat"</string>
+    <string name="details">"Podrobnosti"</string>
+    <string name="list">"Seznam"</string>
+    <string name="thumbnail">"Náhled"</string>
+    <string name="folder">"složka"</string>
+    <string name="view">"Zobrazit podle"</string>
+    <string name="cancel">"Zrušit"</string>
+    <string name="sort">"Řadit podle"</string>
+    <string name="sort_time">"Doba"</string>
+    <string name="sort_name">"Jméno"</string>
+    <string name="sort_size">"Rozměry"</string>
+    <string name="sort_type">"Typ"</string>
+    <string name="rename_file">"Přejmenovat"</string>
+    <string name="video_title">"Titul:"</string>
+    <string name="video_datetaken">"Poslední úprava:"</string>
+    <string name="video_duration">"Doba trvání:"</string>
+    <string name="video_size">"Velikost souboru:"</string>
+    <string name="video_path">"Cesta k souboru:"</string>
+    <string name="close">"Blízko"</string>
+    <string name="select_item">"Vybrané soubory"</string>
+    <string name="search">"Hledat"</string>
+    <string name="search_empty">"Žádné výsledky"</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Žádná videa"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Toto video nelze přehrát."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Tato položka bude smazána"</string>
+    <string name="video_item_deleted">"položka bude smazána."</string>
+    <string name="video_items_deleted">"položky budou odstraněny."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Typ videa:"</string>
+    <string name="video_count">"Počet videa:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Klepnutím vyberte"</string>
+    <string name="selectcount">"Vybráno: %1$d"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Pokračovat v přehrávání videa"</string>
+    <string name="resume_playing_settingtips">"Vyberte, zda chcete pokračovat od bodu zastavení."</string>
+    <string name="capture_title">"Zobrazit tlačítko zachycení"</string>
+    <string name="capture_summary">"Klepnutím na ikonu fotoaparátu zachytíte snímek obrazovky při přehrávání místního videa."</string>
+    <string name="loop_title">"Opakovat"</string>
+    <string name="loop_summary">"Přehrát znovu při překročení"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Nastavit jas a hlasitost"</string>
+	<string name="adjust_brightness_content">"Pro nastavení zvuku posunujte nahoru a dolů po pravé straně obrazovky. Jas nastavíte na levé straně."</string>
+    <string name="control_playback_title">"Řízení pokroku přehrávání"</string>
+    <string name="control_playback_content">"Pro řízení pokroku přehrávání posunujte doprava nebo doleva po obrazovce."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Zkracování"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Tipy"</string>
+    <string name="tipscontent">"při vyskočení videa: \nVelikost videa změníte stažením nebo roztažením dvou prstů. \nPro návrat do plné obrazovky poklepejte."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Znovu nepřipomínat"</string>
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Αναπαραγωγή βίντεο"</string>
+    <string name="popup_share">"Κοινή χρ."</string>
+    <string name="popup_delete">"Διαγραφή"</string>
+    <string name="popup_clip">"Περικοπή"</string>
+    <string name="popup_settings">"Ρυθμίσεις"</string>
+    <string name="myvideo">"Τα βίντεο μου"</string>
+    <string name="delete_item">"Διαγραφή"</string>
+    <string name="delete_yes">"Ναι"</string>
+    <string name="delete_no">"Όχι"</string>
+    <string name="share">"Κοινή χρ."</string>
+    <string name="rename">"Μετονομασία"</string>
+    <string name="details">"Λεπτομέρειες"</string>
+    <string name="list">"Λίστα"</string>
+    <string name="thumbnail">"Μικρογραφία"</string>
+    <string name="folder">"φάκελος"</string>
+    <string name="view">"Προβολή ως"</string>
+    <string name="cancel">"Ακύρωση"</string>
+    <string name="sort">"Ταξιν. κατά"</string>
+    <string name="sort_time">"Ώρα"</string>
+    <string name="sort_name">"Όνομα"</string>
+    <string name="sort_size">"Μέγεθος"</string>
+    <string name="sort_type">"Τύπος"</string>
+    <string name="rename_file">"Μετονομασία"</string>
+    <string name="video_title">"Τίτλος:"</string>
+    <string name="video_datetaken">"Ώρα:"</string>
+    <string name="video_duration">"Διάρκεια:"</string>
+    <string name="video_size">"Μέγεθος αρχείου:"</string>
+    <string name="video_path">"Διαδρομή:"</string>
+    <string name="close">"Κλείσιμο"</string>
+    <string name="select_item">"Πολλ. επιλογή"</string>
+    <string name="search">"Αναζήτηση"</string>
+    <string name="search_empty">"Δεν βρέθηκαν αποτελέσματα."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Δεν υπάρχουν βίντεο"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Δεν μπορείτε να αναπαράγετε αυτό το βίντεο."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Το στοιχείο θα διαγραφεί"</string>
+    <string name="video_item_deleted">"στοιχεί θα διαγραφεί."</string>
+    <string name="video_items_deleted">"στοιχεία θα διαγραφούν"</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Τύπος βίντεο:"</string>
+    <string name="video_count">"Αριθμός βίντεο:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Πιέστε για να επιλέξετε"</string>
+    <string name="selectcount">"%1$d Επιλ"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Συνέχιση βίντεο"</string>
+    <string name="resume_playing_settingtips">"Επιλέξτε αν θέλετε να συνεχίσετε από το σημείο που σταματήσατε"</string>
+    <string name="capture_title">"Εμφάνιση πλήκτρου σύλληψης"</string>
+    <string name="capture_summary">"Αγγίξτε το εικονίδιο της κάμερας για λήψη φωτογραφίας όταν παίζεται τοπικό αρχείο."</string>
+    <string name="loop_title">"Επανάληψη"</string>
+    <string name="loop_summary">"Επανάληψη αναπαραγωγής όταν τελειώσει"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Αλλαγή φωτεινότητας και έντασης"</string>
+	<string name="adjust_brightness_content">"Για αλλαγή έντασης, σύρετε προς τα πάνω ή κάτω στην αριστερή μεριά της οθόνης. Για την φωτεινότητα, σύρετε στην αριστερή μεριά."</string>
+    <string name="control_playback_title">"Χειρισμός αναπαραγωγής"</string>
+    <string name="control_playback_content">"Για να χειριστείτε την αναπαραγωγή σε εξέλιξη, σύρετε προς τα δεξιά ή αριστερά της οθόνης"</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Περικοπή"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Συμβουλές"</string>
+    <string name="tipscontent">"όταν ξεκινάει το βίντεο: \nΓια αλλαγή μεγέθους, τσιμπήστε ή απομακρύνετε δύο δάχτυλα.\nΓια επιστροφή σε πλήρη οθόνη,αγγίξτε δύο φορές."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Χωρίς νέα υπενθύμιση"</string>
+
+</resources>

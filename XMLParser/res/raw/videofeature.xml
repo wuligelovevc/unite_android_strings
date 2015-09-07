@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+该文件配置视频播放特征：
+1)DEBUG:严格调试宏，打开后对于内存泄漏，空对象引用等monkey测试易遇问题，播放器会退出，查看日志方便；
+2)TD_DIFF:TD差异宏，打开后，应用于TD项目，对于一些入库用例进行配置；
+3)ON_LINE:视频在线宏，打开后，支持在线流媒体
+4)MINI_WINDOW:浮动窗口宏，打开后，支持浮动窗口
+ -->
+ 
+<root>
+    <DEBUG>false</DEBUG>
+    <TD_DIFF>false</TD_DIFF> 
+    <ALIVE_SHARE>false</ALIVE_SHARE>   
+    <TRIM>true</TRIM>  
+    <CLOSE_DOLBY_SPEAKER>false</CLOSE_DOLBY_SPEAKER>  
+    <NO_SEEK_MOVE>false</NO_SEEK_MOVE>  
+    
+</root>

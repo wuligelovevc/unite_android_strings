@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/bg">
+<!--
+    <include layout="@layout/title_classification" />
+-->
+	<RelativeLayout 
+	    android:layout_width="fill_parent" android:layout_height="wrap_content"
+	    android:id="@+id/subject_title" android:padding="3dp" android:background="#333333"
+	    >
+	    <ImageView android:layout_height="107dp" android:layout_width="160dp"
+	        android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+	        android:id="@+id/subject_title_img"
+	        />
+	    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+	        android:layout_toRightOf="@id/subject_title_img" android:textColor="#ffffff"
+	        android:layout_alignParentTop="true" android:singleLine="true" 
+	        android:marqueeRepeatLimit="marquee_forever"
+			android:focusable="true" android:focusableInTouchMode="true"
+	        android:id="@+id/subject_title_name" android:layout_marginLeft="3dp" 
+	        />
+
+	    <TextView
+	        android:id="@+id/subject_title_info"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@id/subject_title_name"
+	        android:layout_below="@id/subject_title_name"
+	        android:ellipsize="none"
+	        android:maxLines="3"
+	        android:textColor="#ffffff"/>
+
+	    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content"
+	        android:src="@drawable/show_down" android:layout_alignParentRight="true"
+	        android:layout_below="@id/subject_title_info"
+	      	android:id="@+id/subject_title_show" android:layout_marginRight="80dp"
+	        />
+	</RelativeLayout>
+	<ListView android:id="@+id/listview" android:layout_width="fill_parent"
+		android:background="@drawable/bg"
+		android:layout_height="fill_parent" android:cacheColorHint="#00000000"
+		android:divider="@drawable/divider" android:dividerHeight="1dp"
+		android:headerDividersEnabled="false"
+		android:scrollbars="none"/>
+    
+
+</LinearLayout>

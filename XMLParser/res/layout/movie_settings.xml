@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/resume_playing_title"
+        android:key="resumeplay"
+        android:layout="@layout/preference_text_style"
+        android:summary="@string/resume_playing_settingtips"
+        android:title="@string/resume_playing_title" />
+
+    <CheckBoxPreference
+        android:key="autonext"
+        android:layout="@layout/preference_text_style_notitle"
+        android:persistent="false"
+        android:title="@string/autonext_title_diff" />
+
+    <!-- android:widgetLayout="@layout/switch_button" -->
+
+    <com.zte.videoplayer.MySwitchPreference
+        android:defaultValue="false"
+        android:key="displaycapture"
+        android:layout="@layout/preference_text_style"
+        android:summary="@string/capture_summary"
+        android:title="@string/capture_title" />
+
+    <Preference
+        android:key="help"
+        android:layout="@layout/preference_text_style_notitle"
+        android:persistent="false"
+        android:title="@string/help" />
+
+</PreferenceScreen>

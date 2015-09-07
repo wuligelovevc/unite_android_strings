@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Prehrávač videa"</string>
+    <string name="popup_share">"Zdieľať"</string>
+    <string name="popup_delete">"Odstrániť"</string>
+    <string name="popup_clip">"Orezať"</string>
+    <string name="popup_settings">"Nastavenia"</string>
+    <string name="myvideo">"Moje videá"</string>
+    <string name="delete_item">"Odstrániť"</string>
+    <string name="delete_yes">"Áno"</string>
+    <string name="delete_no">"Nie"</string>
+    <string name="share">"Zdieľať"</string>
+    <string name="rename">"Premenovať"</string>
+    <string name="details">"Detaily"</string>
+    <string name="list">"Zoznam"</string>
+    <string name="thumbnail">"Miniatúra"</string>
+    <string name="folder">"priečinok"</string>
+    <string name="view">"Zobraziť podľa"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="sort">"Triediť podľa"</string>
+    <string name="sort_time">"Čas"</string>
+    <string name="sort_name">"Názov"</string>
+    <string name="sort_size">"Veľkosť"</string>
+    <string name="sort_type">"Typ"</string>
+    <string name="rename_file">"Premenovať"</string>
+    <string name="video_title">"Názov:"</string>
+    <string name="video_datetaken">"Čas:"</string>
+    <string name="video_duration">"Trvanie:"</string>
+    <string name="video_size">"Veľkosť súboru:"</string>
+    <string name="video_path">"Cesta:"</string>
+    <string name="close">"Zavrieť"</string>
+    <string name="select_item">"Viacnásobný výber"</string>
+    <string name="search">"Hľadať"</string>
+    <string name="search_empty">"Žiadne záznamy"</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Žiadne videá"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Toto video nie je možné prehrať."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Položka bude vymazaná"</string>
+    <string name="video_item_deleted">"položka sa odstráni."</string>
+    <string name="video_items_deleted">"položiek sa odstráni."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Typ videa:"</string>
+    <string name="video_count">"Počet videí:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Klepnite pre zmenu"</string>
+    <string name="selectcount">"Počet vybratých položiek: %1$d"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Obnoviť video"</string>
+    <string name="resume_playing_settingtips">"Vyberte, či chcete pokračovať tam, kde ste prestali."</string>
+    <string name="capture_title">"Zobraziť tlačidlo snímania"</string>
+    <string name="capture_summary">"Kliknutím na ikonu fotoaparátu zachytíte snímku obrazovky počas prehrávania miestneho súboru."</string>
+    <string name="loop_title">"Opakovať"</string>
+    <string name="loop_summary">"Po dokončení znova prehrať"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Nastaviť jas a hlasitosť"</string>
+	<string name="adjust_brightness_content">"Ak chcete nastaviť hlasitosť, posuňte prstom nahor alebo nadol na pravej strane obrazovky. Ak chcete nastaviť jas, posuňte prstom na ľavej strane."</string>
+    <string name="control_playback_title">"Ovládať priebeh prehrávania"</string>
+    <string name="control_playback_content">"Ak chcete ovládať priebeh prehrávania, posuňte prstom na obrazovke vpravo alebo vľavo."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Orezanie"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Tipy"</string>
+    <string name="tipscontent">"Keď sa zobrazí video: \nAk chcete zmeniť veľkosť videa, použite dva prsty, dotknite sa nimi obrazovky a stiahnite ich k sebe alebo ich roztiahnite od seba. \nAk chcete vrátiť zobrazenie celej obrazovky, dvakrát klepnite."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Viac nepripomínať"</string>
+
+</resources>

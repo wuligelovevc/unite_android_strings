@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+  <string name="select_item">"Öğeleri seç"</string>
+  <string name="deleted">"silindi"</string>
+  <string name="select_all">"Tümü"</string>
+  <string name="close">"Kapat"</string>
+  <string name="title">"Başlık"</string>
+  <string name="please_wait">"Lütfen bekleyin…"</string>
+  <string name="folder_download">"İndir"</string>
+  <string name="save">"Kaydet"</string>
+  <string name="sdcard_missing_title">"SD kart yok"</string>
+  <string name="videos_title">"Videolar"</string>
+  <string name="VideoView_error_button">"TAMAM"</string>
+  <string name="share">"Paylaş"</string>
+  <string name="delete_item">"Sil"</string>
+  <string name="rename">"Yeniden adlandır"</string>
+  <string name="rename_file">"Yeniden adlandır"</string>
+  <string name="delete_yes">"Evet"</string>
+  <string name="delete_no">"Hayır"</string>
+  <string name="video_path">"Dizin:"</string>
+  <string name="video_datetaken">"Tarih:"</string>
+  <string name="create_playlist_create_text">"Kaydet"</string>
+  <string name="cancel">"İptal"</string>
+  <string name="ok">"TAMAM"</string>
+  <string name="popup_share">"Paylaş"</string>
+  <string name="popup_delete">"Sil"</string>
+  <string name="popup_clip">"Kırp"</string>
+  <string name="popup_settings">"Ayarlar"</string>
+  <string name="setting_label">"Ayarlar"</string>
+  <string name="back">"Geri"</string>
+  <string name="menu_name">"Ad"</string>
+  <string name="sort">"Buna göre sırala:"</string>
+  <string name="sort_name">"Ad"</string>
+  <string name="sort_size">"Boyut"</string>
+  <string name="sort_type">"Tür"</string>
+  <string name="menu">"Menü"</string>
+  <string name="search">"Ara"</string>
+  <string name="list">"Liste"</string>
+  <string name="alive">"AliveShare"</string>
+  <string name="online_name">"Çevrimiçi"</string>
+  <string name="confirm">"Onayla"</string>
+  <string name="system_tips">"Sistem ipuçları"</string>
+  <string name="msg_network_nowifi_setting">"Bir WiFi ağı kullanıyorsunuz. İzlemek veya indirmek için ayarlar sayfasına gidin"</string>
+  <string name="msg_error_title">"Veri okuma hatası"</string>
+  <string name="video_Hottest">"En Popüler"</string>
+  <string name="video_Latest">"En Yeni"</string>
+  <string name="video_lock">"Ekran kilitlendi"</string>
+  <string name="video_unlock">"Ekran kilidi açıldı"</string>
+  <string name="user_loading">"Yüklüyor…"</string>
+  <string name="user_wait">"Lütfen bekleyin…"</string>
+  <string name="list_vlong">"Çalışma zamanı:"</string>
+  <string name="prog_comefrom">"Kaynak:"</string>
+  <string name="msg_error_value">"Ağı kontrol edip tekrar deneyin"</string>
+  <string name="link_wait">"Lütfen bekleyiniz…"</string>
+  <string name="link_load">"Yüklüyor…"</string>
+  <string name="subject_info">"Konu bilgisi"</string>
+  <string name="e_cancel">"İptal"</string>
+  <string name="e_ok">"TAMAM"</string>
+  <string name="clear_cache_succeed">"Tampon bellek temizleme başarılı"</string>
+  <string name="url_empty">"URL girdisi boş"</string>
+  <string name="exit_app_ensure">"Çıkmak istiyor musunuz?"</string>
+  <string name="msg_install_title">"İndirme ipuçları"</string>
+  <string name="yes">"Evet"</string>
+  <string name="no">"Hayır"</string>
+  <string name="msg_download_error">"İndirme hatası, doğrudan oynatmayı deneyin."</string>
+  <string name="cmcc">"China Mobile"</string>
+  <string name="unicom">"China Unicom"</string>
+  <string name="telecommunications">"Çin Telekom"</string>
+  <string name="video_intro">"Giriş"</string>
+  <string name="link_title">"İlgili video"</string>
+  <string name="prog_flipin">"İçe çevir"</string>
+  <string name="prog_flipout">"Dışa çevir"</string>
+  <string name="prog_continue">"(Güncelle)"</string>
+  <string name="prog_final">"(Bitti)"</string>
+  <string name="msg_webview_title">"Flash desteği gerekli"</string>
+  <string name="msg_webview_value">"Lütfen Flash eklentisini indirin"</string>
+  <string name="prog_download">"İndir"</string>
+  <string name="msg_network_nowifi">"Bir WiFi ağına bağlı değilsiniz. WiFi ağına bağlanmanız önerilir."</string>
+  <string name="refresh_toast">"İşlem başarılı. Program güncellendi."</string>
+  <string name="net_setup">"Ağ ayarları"</string>
+  <string name="net_continue">"İzlemeye devam et"</string>
+  <string name="tab_more">"Daha fazla video"</string>
+  <string name="tab_refresh">"Yenile"</string>
+  <string name="no_network">"Ağ bağlantısı yok. Lütfen ağ bağlantınızı kontrol edip "Yenile" ye tıklayarak tekrar deneyin."</string>
+  <string name="play_movie">"Oynat"</string>
+  <string name="msg_install_line">"Estream yüklenmemiş. \nİndirip kurmak ister misiniz?"</string>
+  <string name="msg_down_title">"Online video oynatıcıyı indir"</string>
+  <string name="btn_download_ok">"TAMAM"</string>
+  <string name="btn_download_cancel">"İptal"</string>
+  <string name="msg_download_stream_title">"Estream\'i indir"</string>
+  <string name="toast_not_found_apkfile">"İlgili APK bulunamadı."</string>
+  <string name="msg_download_complete">"Yeni uygulama yükle"</string>
+
+  <string name="autoplay">"Sonrakini otomatik olarak çal"</string>
+  <string name="settingtitle">"Ayar"</string>
+  <string name="video_setting_item">"ayarlar"</string>
+  <string name="view">"Görüntüleme ölçütü"</string>
+  <string name="always">"Her zaman"</string>
+  <string name="download">"İndir"</string>
+  <string name="tap_to_select">"Seçmek için dokunun"</string>
+  
+  <string name="myvideo">Video Oynatıcı</string>
+  <string name="search_video">Video adını girin</string>
+  <string name="videos_no_available">Video yok</string>
+  
+    <!-- for float window begin -->
+    <string name="tipstitle">"İpuçları"</string>
+    <string name="tipsok">"TAMAM"</string>
+    <string name="tipstr"> </string>
+    <string name="tipscontent">Küçük video ekran boyutunu ayarlamak için iki parmağınızla kıstırın. Tam ekran için iki kere dokunun.</string>
+    <string name="tipscheckbox">Tekrar hatırlatma</string>
+    <!-- for float window end -->
+
+    <string name="adjust_brightness_title">Parlaklığı ve sesi ayarlayın</string>
+    <string name="adjust_brightness_content">Sesi ayarlamak için parmağınızı ekranın sağ tarafında yukarı aşağı kaydırın.Parlaklığı ekranın sol tarafından ayarlayın.</string>
+    <string name="control_playback_title">Oynatımı kontrol edin</string>
+    <string name="control_playback_content">Oynatımı kontrol etmek için parmağınızı ekran üzerinde sola sağa kaydırın.</string>
+  
+    <string name="resume_playing_title">Devam et</string>
+    <string name="resume_playing_settingtips">Kaldığınız yerden devam edip etmeyeceğinizi seçin</string>
+    
+    <string name="autonext_title">Sonrakini Oynat</string>
+    <string name="autonext_summary">Videolarım içinde kuyrukta sonra gelen videoya otomatik olarak geçiş yap</string>
+    
+    <string name="capture_title">Çekim butonunu göster</string>
+    <string name="capture_summary">Video oynatılırken resim çekmek için kamera nesnesine dokunun</string>
+    
+    <string name="no_videos_title">Video yok</string>
+    
+    <string name="app_name">Video Oynatıcı</string>
+    <string name="movie_view_label">Video Oynatıcı</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Leitor de vídeo"</string>
+    <string name="popup_share">"Partilhar"</string>
+    <string name="popup_delete">"Eliminar"</string>
+    <string name="popup_clip">"Ajustar"</string>
+    <string name="popup_settings">"Definições"</string>
+    <string name="myvideo">"Os meus vídeos"</string>
+    <string name="delete_item">"Apagar"</string>
+    <string name="delete_yes">"Sim"</string>
+    <string name="delete_no">"Não"</string>
+    <string name="share">"Partilhar"</string>
+    <string name="rename">"Mudar o nome"</string>
+    <string name="details">"Detalhes"</string>
+    <string name="list">"Lista"</string>
+    <string name="thumbnail">"Pré-visualização"</string>
+    <string name="folder">"Pasta"</string>
+    <string name="view">"Ver por"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="sort">"Ordenar por"</string>
+    <string name="sort_time">"Tempo"</string>
+    <string name="sort_name">"Nome"</string>
+    <string name="sort_size">"Tamanho"</string>
+    <string name="sort_type">"Tipo"</string>
+    <string name="rename_file">"Mudar o nome"</string>
+    <string name="video_title">"Título:"</string>
+    <string name="video_datetaken">"Hora:"</string>
+    <string name="video_duration">"Duração:"</string>
+    <string name="video_size">"Tamanho:"</string>
+    <string name="video_path">"Caminho do ficheiro:"</string>
+    <string name="close">"Fechar"</string>
+    <string name="select_item">"Ficheiros seleccionados"</string>
+    <string name="search">"Pesquisar"</string>
+    <string name="search_empty">"Sem resultados."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Sem vídeos"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Não é possível reproduzir este vídeo."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Este item será apagado."</string>
+    <string name="video_item_deleted">"o item será eliminado."</string>
+    <string name="video_items_deleted">"os items serão eliminados."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Tipo de vídeo:"</string>
+    <string name="video_count">"Contagem:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Tocar para selecionar"</string>
+    <string name="selectcount">"%1$d selecionada(s)"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Retomar o vídeo"</string>
+    <string name="resume_playing_settingtips">"Seleccione se quer resumir ou reiniciar a reprodução"</string>
+    <string name="capture_title">"Screenshot"</string>
+    <string name="capture_summary">"Toque no ícone da câmara para tirar um screenshot"</string>
+    <string name="loop_title">"Loop"</string>
+    <string name="loop_summary">"Reproduzir novamente quando terminar"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Ajustar brilho e volume"</string>
+	<string name="adjust_brightness_content">"Para ajustar a voz, deslize o dedo acima ou abaixo no lado direito do Ecrã. Para ajustar o brilho, faça o mesmo mas do lado esquerdo."</string>
+    <string name="control_playback_title">"Controlos"</string>
+    <string name="control_playback_content">"Para controlar a reprodução do vídeo, deslize o dedo para a esquerda ou direita."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Recorte"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Sugestões"</string>
+    <string name="tipscontent">"quando o vídeo aparecer: \npara dimensionar ou esticar, utilize dois dedos.\nPara ecrã inteiro, toque duas vezes."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Não lembrar"</string>
+
+</resources>

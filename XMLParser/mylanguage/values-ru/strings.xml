@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Видеоплеер"</string>
+    <string name="popup_share">"Поделиться"</string>
+    <string name="popup_delete">"Клавиша удаления"</string>
+    <string name="popup_clip">"Обрезать"</string>
+    <string name="popup_settings">"Настройки"</string>
+    <string name="myvideo">"Мои видеозаписи"</string>
+    <string name="delete_item">"Клавиша удаления"</string>
+    <string name="delete_yes">"Да"</string>
+    <string name="delete_no">"Нет"</string>
+    <string name="share">"Поделиться"</string>
+    <string name="rename">"Переименовать"</string>
+    <string name="details">"Детали"</string>
+    <string name="list">"Список"</string>
+    <string name="thumbnail">"Миниатюра"</string>
+    <string name="folder">"Папка"</string>
+    <string name="view">"Отобразить с помощью"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="sort">"Сортировать"</string>
+    <string name="sort_time">"Время"</string>
+    <string name="sort_name">"Имя"</string>
+    <string name="sort_size">"Размер"</string>
+    <string name="sort_type">"Тип"</string>
+    <string name="rename_file">"Переименовать"</string>
+    <string name="video_title">"Hазвание:"</string>
+    <string name="video_datetaken">"Последнее изменение:"</string>
+    <string name="video_duration">"Продолжительность:"</string>
+    <string name="video_size">"Размер файла:"</string>
+    <string name="video_path">"Путь к файлу:"</string>
+    <string name="close">"Крупный"</string>
+    <string name="select_item">"Выберите объект"</string>
+    <string name="search">"Поиск"</string>
+    <string name="search_empty">"НЕТ совпадений."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Видео отсутствует"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Не удалось воспроизвести видео."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Объект будет удален"</string>
+    <string name="video_item_deleted">"Элемент будет удален."</string>
+    <string name="video_items_deleted">"Записи будут удалены"</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Тип видео:"</string>
+    <string name="video_count">"Счетчик видео:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Нажмите, чтобы выбрать"</string>
+    <string name="selectcount">"%1$d"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Продолжение просмотра видео"</string>
+    <string name="resume_playing_settingtips">"Выберите, следует ли запустить видео с момента остановки."</string>
+    <string name="capture_title">"Отобразить кнопку захвата"</string>
+    <string name="capture_summary">"Нажмите на значок камеры, чтобы сделать скриншот, пока текущий файл воспроизводится."</string>
+    <string name="loop_title">"Включить повтор"</string>
+    <string name="loop_summary">"Проиграть снова"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"ОК"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Настроить яркость и громкость"</string>
+	<string name="adjust_brightness_content">"Для настройки голоса, проведите вверх или вниз в правой части экрана. Для настройки яркости-выполните те же действия в левой части."</string>
+    <string name="control_playback_title">"Контролировать процесс воспроизведения"</string>
+    <string name="control_playback_content">"Для контроля за процессом воспроизведения, проведите влево или вправо по экрану."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Обрезка"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Резервное копирование отменено"</string>
+    <string name="tipscontent">"Когда видео появляется: для масштабирования видео, сведите вместе два пальца. Для возврата в полноэкранный режим, дважды нажмите на экран."</string>
+    <string name="tipsok">"ОК"</string>
+    <string name="tipscheckbox">"Не напоминать снова"</string>
+
+</resources>

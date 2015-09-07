@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"VideoPlayer"</string>
+    <string name="popup_share">"Teilen"</string>
+    <string name="popup_delete">"Löschen"</string>
+    <string name="popup_clip">"Zuschneiden"</string>
+    <string name="popup_settings">"Einstellungen"</string>
+    <string name="myvideo">"Meine Videos"</string>
+    <string name="delete_item">"Löschen"</string>
+    <string name="delete_yes">"Ja"</string>
+    <string name="delete_no">"Keine"</string>
+    <string name="share">"Teilen"</string>
+    <string name="rename">"Umbenennen"</string>
+    <string name="details">"Details"</string>
+    <string name="list">"Liste"</string>
+    <string name="thumbnail">"Miniaturansicht"</string>
+    <string name="folder">"Ordner"</string>
+    <string name="view">View by</string>
+    <string name="cancel">"Abbrechen"</string>
+    <string name="sort">"Sortieren nach"</string>
+    <string name="sort_time">"Uhrzeit"</string>
+    <string name="sort_name">"Namen Ihrer Kontakte"</string>
+    <string name="sort_size">"Größe"</string>
+    <string name="sort_type">"Art"</string>
+    <string name="rename_file">"Umbenennen"</string>
+    <string name="video_title">"Eigenschaften von %1$s"</string>
+    <string name="video_datetaken">"Zeit:"</string>
+    <string name="video_duration">"Dauer:"</string>
+    <string name="video_size">"Dateigröße:"</string>
+    <string name="video_path">"Pfad:"</string>
+    <string name="close">"Nah"</string>
+    <string name="select_item">"Kontakt(e) auswählen"</string>
+    <string name="search">"Suchen"</string>
+    <string name="search_empty">"Keine Treffer."</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Keine Videos"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Video kann nicht wiedergegeben werden."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Element wird gelöscht"</string>
+    <string name="video_item_deleted">"Element wird gelöscht."</string>
+    <string name="video_items_deleted">"Artikel wird/werden gelöscht."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Videotyp:"</string>
+    <string name="video_count">"Anzahl Videos:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Zur Auswahl berühren"</string>
+    <string name="selectcount">"%1$d ausgewählt"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Mit Video fortfahren"</string>
+    <string name="resume_playing_settingtips">"Wählen Sie, ob die Wiedergabe da fortgesetzt werden soll, wo sie unterbrochen wurde."</string>
+    <string name="capture_title">Schaltfläche \"Screenshot\"</string>
+    <string name="capture_summary">"Klicken Sie auf das Kamerasymbol, um bei der Wiedergabe einer lokalen Datei einen Screenshot zu erstellen."</string>
+    <string name="loop_title">"Schleife"</string>
+    <string name="loop_summary">"Nach Abschluss erneut wiedergeben"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Anpassen von Helligkeit und Lautstärke"</string>
+	<string name="adjust_brightness_content">"Mit dem Schieberegler auf der rechten Seite können Sie die Lautstärke ändern, mit dem auf der linken Seite die Helligkeit."</string>
+    <string name="control_playback_title">"Steuerung des Wiedergabefortschritts"</string>
+    <string name="control_playback_content">"Ziehen Sie auf dem Bildschirm nach rechts oder links, um den Wiedergabefortschritt zu steuern."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">Trimming</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Tipps"</string>
+    <string name="tipscontent">"Bei Video-Popup: \nVideodarstellung kann durch zwei Finger vergrößert oder verkleinert werden. \nDoppeltippen Sie, um zum Vollbildmodus zurückzukehren."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Nicht mehr erinnern."</string>
+
+</resources>

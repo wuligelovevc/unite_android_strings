@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TableLayout 
+  android:layout_height="wrap_content"
+  android:layout_width="wrap_content"
+  android:padding="24sp"
+  >
+    
+  <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView  
+    android:id="@+id/video_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/video_title"
+    android:gravity="left"
+    />
+  </TableRow>  
+  
+  <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView  
+    android:id="@+id/video_type"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/video_type"
+    android:gravity="left"
+    />
+  </TableRow>
+  
+  <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView  
+    android:id="@+id/video_count"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/video_count"
+    android:gravity="left"
+    />
+  </TableRow>
+  
+  <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView  
+    android:id="@+id/video_size"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/video_size"
+    android:gravity="left"
+    />
+  </TableRow>
+    
+
+  <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView  android:id="@+id/video_path"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/video_path"
+    android:gravity="left"
+    /> 
+    </TableRow>
+    
+  <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView  
+    android:id="@+id/video_datetaken"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/video_datetaken"
+    android:visibility="invisible"
+    android:gravity="left"
+    />
+  </TableRow>
+ </TableLayout>
+</ScrollView>

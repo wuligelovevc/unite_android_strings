@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VideoBrowserActivity -->
+    <string name="app_name">"Videólejátszó"</string>
+    <string name="popup_share">"Megosztás"</string>
+    <string name="popup_delete">"TÖRLÉS"</string>
+    <string name="popup_clip">"Vágás"</string>
+    <string name="popup_settings">"Beállítások"</string>
+    <string name="myvideo">"Saját videók"</string>
+    <string name="delete_item">"TÖRLÉS"</string>
+    <string name="delete_yes">"Igen"</string>
+    <string name="delete_no">"Nem"</string>
+    <string name="share">"Megosztás"</string>
+    <string name="rename">"Átnevezés"</string>
+    <string name="details">"Részletek"</string>
+    <string name="list">"Lista"</string>
+    <string name="thumbnail">"Miniatűr"</string>
+    <string name="folder">"mappa"</string>
+    <string name="view">"Megtekintette:"</string>
+    <string name="cancel">"Mégse"</string>
+    <string name="sort">"Rendezés"</string>
+    <string name="sort_time">"Idő"</string>
+    <string name="sort_name">"Név"</string>
+    <string name="sort_size">"Méret"</string>
+    <string name="sort_type">"Típus"</string>
+    <string name="rename_file">"Átnevezés"</string>
+    <string name="video_title">"Cím:"</string>
+    <string name="video_datetaken">"Idő:"</string>
+    <string name="video_duration">"Időtartam:"</string>
+    <string name="video_size">"Fájlméret:"</string>
+    <string name="video_path">"Útvonal:"</string>
+    <string name="close">"Bezár"</string>
+    <string name="select_item">"Elem kiválasztása"</string>
+    <string name="search">"Keresés"</string>
+    <string name="search_empty">"NINCS találat"</string>
+
+    <!-- VideoPlayerActivity -->
+    <string name="no_videos_title">"Nincsenek videók"</string>
+
+    <!-- exit dialog -->
+    <string name="VideoView_error_text_unknown">"Nem lehet lejátszani ezt a videót."</string>
+
+    <!-- delete dialog -->
+    <string name="video_deleted">"Törölve lesz"</string>
+    <string name="video_item_deleted">"elem törlődik."</string>
+    <string name="video_items_deleted">"Az elemek törlődnek."</string>
+
+    <!-- VideoFolder details -->
+    <string name="video_type">"Videó típusa:"</string>
+    <string name="video_count">"Videószámláló:"</string>
+
+    <!-- MutilSelect -->
+    <string name="tap_to_select">"Érintse meg a kiválasztáshoz"</string>
+    <string name="selectcount">"%1$d kiválasztva"</string>
+
+    <!-- VideoSettingsActivity -->
+    <string name="resume_playing_title">"Videó folytatása"</string>
+    <string name="resume_playing_settingtips">"Válassza ki, hogy onnan kívánja-e folytatni, ahol abbahagyta."</string>
+    <string name="capture_title">"Képrögzítési gomb megjelenítése"</string>
+    <string name="capture_summary">"Pillanatfelvétel készítéséhez kattintson a kamera ikonra helyi fájl lejátszásakor."</string>
+    <string name="loop_title">"Ismétlés"</string>
+    <string name="loop_summary">"Újrajátszás, ha vége"</string>
+    <string name="autonext_title_diff">Automatically play the next</string>
+
+    <!-- VideoHelpActivity -->
+    <string name="ok">"OK"</string>
+	<string name="help">Help</string>
+	<string name="adjust_brightness_title">"Fényerő és hangerő beállítása"</string>
+	<string name="adjust_brightness_content">"A hangerő szabályozásához húzza a képernyő jobb oldalán lévő csúszkát fel vagy le. A fényerőt a bal oldali csúszkával állíthatja."</string>
+    <string name="control_playback_title">"Lejátszási időpont beállítása"</string>
+    <string name="control_playback_content">"A lejátszási időpont beállításához húzza a csúszkát jobbra vagy balra."</string>
+    
+    <string-array name="resume_settings">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Ask each time</item>
+    </string-array>
+    
+    <!-- Trim Activity -->
+    <string name="trimming">"Vágás"</string>
+    
+    <!-- MenuFactory -->
+    <string name="tipstitle">"Tippek"</string>
+    <string name="tipscontent">"videó felugrásakor: \nA méretezéshez két ujjal húzza össze vagy szét videót. \nA teljes képernyőre váltáshoz koppintson rá kétszer."</string>
+    <string name="tipsok">"OK"</string>
+    <string name="tipscheckbox">"Don\'t remind again"</string>
+
+</resources>

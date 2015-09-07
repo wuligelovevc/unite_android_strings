@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="httpErrorOk">确定</string>
+    <string name="httpError">该网页包含一个错误。</string>
+    <string name="httpErrorLookup" translatable="false">无法找到该URL。</string>
+    <string name="httpErrorUnsupportedAuthScheme">不支持该网站的身份验证方案。</string>
+    <string name="httpErrorAuth">认证是不成功的。</string>
+    <string name="httpErrorProxyAuth">通过代理服务器的身份验证是不成功的。</string>
+    <string name="httpErrorConnect">服务器连接不成功。</string>
+    <string name="httpErrorIO">无法连接服务器。稍后再试。</string>
+    <string name="httpErrorTimeout">连接服务器超时。</string>
+    <string name="httpErrorRedirectLoop">页面包含了太多的服务器重定向。</string>
+    <string name="httpErrorUnsupportedScheme">不支持该协议。</string>
+    <string name="httpErrorFailedSslHandshake">不能建立一个安全连接。</string>
+    <string name="httpErrorBadUrl" translatable="false">该页面无法打开，因为URL是无效的。</string>
+    <string name="httpErrorFile">不能访问该文件。</string>
+    <string name="httpErrorFileNotFound">所请求的文件没有被发现。</string>
+    <string name="httpErrorTooManyRequests">太多的请求正在处理中。稍后再试。</string>
+    <!-- Do not translate.  WebView User Agent string -->
+    <string name="web_user_agent" translatable="false">Mozilla/5.0 (Linux; U; Android %s)
+        AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1</string>
+
+</resources>

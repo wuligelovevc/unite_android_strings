@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/actionbar_bg" >
+
+    <ImageButton
+        android:id="@+id/title_iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/title_iv_back"
+        android:src="@mipmap/ic_launcher" />
+    
+    <RelativeLayout
+        android:id="@+id/tab_1x_touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ic_launcher"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:id="@+id/title_tv_name"
+            style="@style/title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <!-- <ImageView
+            android:id="@+id/title_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_tv_name"
+            android:src="@drawable/up"
+            android:visibility="gone" /> -->
+    </RelativeLayout>
+
+<!--     <ImageButton
+        android:id="@+id/title_btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/selector_search" android:visibility="gone"/> -->
+
+</RelativeLayout>
